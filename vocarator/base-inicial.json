@@ -1,0 +1,916 @@
+{
+  "version": 1,
+  "updated": "2026-10-15",
+  "root": "vorcaro",
+  "nodes": [
+    {
+      "id": "vorcaro",
+      "name": "Daniel Vorcaro",
+      "kind": "Pessoa",
+      "aliases": [
+        "Daniel Vorcaro",
+        "Daniel Bueno Vorcaro"
+      ]
+    },
+    {
+      "id": "master",
+      "name": "Banco Master",
+      "kind": "Empresa",
+      "aliases": [
+        "Banco Master"
+      ]
+    },
+    {
+      "id": "baile",
+      "name": "Baile da Vogue",
+      "kind": "Evento",
+      "aliases": [
+        "Baile da Vogue"
+      ]
+    },
+    {
+      "id": "vogue",
+      "name": "Vogue Brasil",
+      "kind": "Publicação",
+      "aliases": [
+        "Vogue Brasil",
+        "Vogue"
+      ],
+      "domains": [
+        "vogue.globo.com"
+      ],
+      "banner": "O Baile da Vogue recebeu patrocínio do Banco Master em 2024, segundo o UOL.",
+      "bannerLabel": "Patrocínio ao baile de 2024"
+    },
+    {
+      "id": "kachar",
+      "name": "Frederic Kachar",
+      "kind": "Pessoa",
+      "aliases": [
+        "Frederic Kachar",
+        "Frédéric Kachar"
+      ]
+    },
+    {
+      "id": "zettel",
+      "name": "Fabiano Zettel",
+      "kind": "Pessoa",
+      "aliases": [
+        "Fabiano Zettel",
+        "Fabiano Campos Zettel"
+      ]
+    },
+    {
+      "id": "tarcisio",
+      "name": "Tarcísio de Freitas",
+      "kind": "Pessoa",
+      "aliases": [
+        "Tarcísio de Freitas",
+        "Tarcisio de Freitas"
+      ]
+    },
+    {
+      "id": "jair",
+      "name": "Jair Bolsonaro",
+      "kind": "Pessoa",
+      "aliases": [
+        "Jair Bolsonaro"
+      ]
+    },
+    {
+      "id": "flavio",
+      "name": "Flávio Bolsonaro",
+      "kind": "Pessoa",
+      "aliases": [
+        "Flávio Bolsonaro",
+        "Flavio Bolsonaro",
+        "Flávio Nantes Bolsonaro"
+      ]
+    },
+    {
+      "id": "darkhorse",
+      "name": "Dark Horse",
+      "kind": "Filme",
+      "aliases": [
+        "Dark Horse"
+      ]
+    },
+    {
+      "id": "frias",
+      "name": "Mario Frias",
+      "kind": "Pessoa",
+      "aliases": [
+        "Mario Frias",
+        "Mário Frias"
+      ]
+    },
+    {
+      "id": "meirelles",
+      "name": "Henrique Meirelles",
+      "kind": "Pessoa",
+      "aliases": [
+        "Henrique Meirelles"
+      ]
+    },
+    {
+      "id": "mantega",
+      "name": "Guido Mantega",
+      "kind": "Pessoa",
+      "aliases": [
+        "Guido Mantega"
+      ]
+    },
+    {
+      "id": "pollaris",
+      "name": "Pollaris Consultoria",
+      "kind": "Empresa",
+      "aliases": [
+        "Pollaris Consultoria"
+      ]
+    },
+    {
+      "id": "temer",
+      "name": "Michel Temer",
+      "kind": "Pessoa",
+      "aliases": [
+        "Michel Temer"
+      ]
+    },
+    {
+      "id": "escritorio-temer",
+      "name": "Escritório de Michel Temer",
+      "kind": "Escritório",
+      "aliases": [
+        "Escritório de Michel Temer"
+      ]
+    },
+    {
+      "id": "rueda",
+      "name": "Antônio Rueda",
+      "kind": "Pessoa",
+      "aliases": [
+        "Antônio Rueda",
+        "Antonio Rueda"
+      ]
+    },
+    {
+      "id": "escritorios-rueda",
+      "name": "Escritórios ligados a Antônio Rueda",
+      "kind": "Escritórios",
+      "aliases": [
+        "Escritórios de Antônio Rueda"
+      ]
+    },
+    {
+      "id": "acm",
+      "name": "ACM Neto",
+      "kind": "Pessoa",
+      "aliases": [
+        "ACM Neto"
+      ]
+    },
+    {
+      "id": "am",
+      "name": "A&M Consultoria",
+      "kind": "Empresa",
+      "aliases": [
+        "A&M Consultoria",
+        "A&M Consultoria Ltda"
+      ]
+    },
+    {
+      "id": "lewandowski",
+      "name": "Ricardo Lewandowski",
+      "kind": "Pessoa",
+      "aliases": [
+        "Ricardo Lewandowski"
+      ]
+    },
+    {
+      "id": "lewandowski-adv",
+      "name": "Lewandowski Advocacia",
+      "kind": "Escritório",
+      "aliases": [
+        "Lewandowski Advocacia"
+      ]
+    },
+    {
+      "id": "wajngarten",
+      "name": "Fabio Wajngarten",
+      "kind": "Pessoa",
+      "aliases": [
+        "Fabio Wajngarten",
+        "Fábio Wajngarten"
+      ]
+    },
+    {
+      "id": "wf",
+      "name": "WF Comunicação",
+      "kind": "Empresa",
+      "aliases": [
+        "WF Comunicação"
+      ]
+    },
+    {
+      "id": "estadao",
+      "name": "Estadão",
+      "kind": "Publicação",
+      "aliases": [
+        "Estadão",
+        "O Estado de S. Paulo"
+      ],
+      "domains": [
+        "estadao.com.br"
+      ],
+      "banner": "O Estadão confirmou publicidade institucional e patrocínio de cobertura pelo Banco Master, segundo o Metrópoles. Vínculo histórico; veja a fonte.",
+      "bannerLabel": "Publicidade e patrocínio (2021–2025)"
+    },
+    {
+      "id": "huck",
+      "name": "Luciano Huck",
+      "kind": "Pessoa",
+      "aliases": [
+        "Luciano Huck"
+      ]
+    },
+    {
+      "id": "will",
+      "name": "Will Bank",
+      "kind": "Empresa",
+      "aliases": [
+        "Will Bank",
+        "will bank"
+      ]
+    },
+    {
+      "id": "domingao",
+      "name": "Domingão com Huck",
+      "kind": "Programa",
+      "aliases": [
+        "Domingão com Huck"
+      ]
+    },
+    {
+      "id": "ciro",
+      "name": "Ciro Nogueira",
+      "kind": "Pessoa",
+      "aliases": [
+        "Ciro Nogueira"
+      ]
+    },
+    {
+      "id": "metropoles",
+      "name": "Metrópoles",
+      "kind": "Publicação",
+      "aliases": [
+        "Metrópoles",
+        "Metropoles"
+      ],
+      "domains": [
+        "metropoles.com"
+      ],
+      "banner": "O Metrópoles confirmou contratos de publicidade e patrocínio esportivo com Master/Will Bank. Relação histórica, incluindo transmissões da Série D de 2025.",
+      "bannerLabel": "Publicidade e patrocínio esportivo (2024–2025)"
+    },
+    {
+      "id": "braziljournal",
+      "name": "Brazil Journal",
+      "kind": "Publicação",
+      "aliases": [
+        "Brazil Journal"
+      ],
+      "domains": [
+        "braziljournal.com"
+      ],
+      "banner": "A Folha noticia consultas de Geraldo Samor a Vorcaro sobre reportagens do Master. Veja a relação e a fonte.",
+      "bannerLabel": "Consultas sobre reportagens noticiadas"
+    },
+    {
+      "id": "samor",
+      "name": "Geraldo Samor",
+      "kind": "Pessoa",
+      "aliases": [
+        "Geraldo Samor"
+      ]
+    },
+    {
+      "id": "serie-d-metropoles",
+      "name": "Transmissões da Série D pelo Metrópoles",
+      "kind": "Projeto esportivo",
+      "aliases": [
+        "Série D no Metrópoles",
+        "Série D pelo Metrópoles"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "controle",
+      "from": "vorcaro",
+      "to": "master",
+      "label": "Ex-controlador",
+      "detail": "Vorcaro é identificado como dono do Banco Master.",
+      "status": "Noticiado",
+      "date": "2026-05-18",
+      "sources": [
+        {
+          "title": "Agência Brasil · 18/05/2026",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/vorcaro-e-transferido-para-carceragem-da-superintendencia-da-pf"
+        }
+      ],
+      "reviewed_at": "2026-10-15",
+      "review": "Conferido na cobertura jornalística; documento subjacente não auditado"
+    },
+    {
+      "id": "patrocinio",
+      "from": "master",
+      "to": "baile",
+      "label": "Patrocínio em 2024",
+      "detail": "O UOL noticia patrocínio de R$ 825 mil ao Baile da Vogue de 2024.",
+      "status": "Noticiado",
+      "date": "2024",
+      "sources": [
+        {
+          "title": "UOL · 15/10/2026",
+          "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/10/15/grupo-globo-demite-diretor-geral-apos-vazamento-de-conversas-com-vorcaro.ghtm"
+        }
+      ],
+      "reviewed_at": "2026-10-15",
+      "review": "Conferido na cobertura jornalística; documento subjacente não auditado"
+    },
+    {
+      "id": "evento",
+      "from": "baile",
+      "to": "vogue",
+      "label": "Evento da publicação",
+      "detail": "A relação cadastrada se refere ao evento, sem atribuir patrocínio a cada matéria.",
+      "status": "Contexto",
+      "date": "2024",
+      "sources": [
+        {
+          "title": "UOL · 15/10/2026",
+          "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/10/15/grupo-globo-demite-diretor-geral-apos-vazamento-de-conversas-com-vorcaro.ghtm"
+        }
+      ],
+      "reviewed_at": "2026-10-15",
+      "review": "Conferido na cobertura jornalística; documento subjacente não auditado"
+    },
+    {
+      "id": "contato",
+      "from": "kachar",
+      "to": "vorcaro",
+      "label": "Negociação de patrocínios",
+      "detail": "Segundo o UOL, Kachar negociava patrocínios com Vorcaro em mensagens.",
+      "status": "Noticiado",
+      "date": "2026-10-15",
+      "sources": [
+        {
+          "title": "UOL · 15/10/2026",
+          "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/10/15/grupo-globo-demite-diretor-geral-apos-vazamento-de-conversas-com-vorcaro.ghtm"
+        }
+      ],
+      "reviewed_at": "2026-10-15",
+      "review": "Conferido na cobertura jornalística; documento subjacente não auditado"
+    },
+    {
+      "id": "zettel-vorcaro",
+      "to": "vorcaro",
+      "label": "Cunhado",
+      "detail": "Zettel é casado com a irmã de Vorcaro.",
+      "status": "Noticiado",
+      "date": "Relação familiar",
+      "sources": [
+        {
+          "title": "Agência Pública · 14/01/2026",
+          "url": "https://apublica.org/nota/quem-e-fabiano-zettel-maior-doador-de-tarcisio-de-freitas/"
+        }
+      ],
+      "reviewed_at": "2026-10-15",
+      "review": "Conferido na reportagem; documento subjacente não auditado",
+      "from": "zettel"
+    },
+    {
+      "id": "zettel-tarcisio",
+      "to": "tarcisio",
+      "label": "Doação eleitoral",
+      "detail": "Doou R$ 2 milhões à campanha de 2022.",
+      "status": "Noticiado",
+      "date": "2022-10-13",
+      "sources": [
+        {
+          "title": "Agência Pública · 14/01/2026",
+          "url": "https://apublica.org/nota/quem-e-fabiano-zettel-maior-doador-de-tarcisio-de-freitas/"
+        }
+      ],
+      "reviewed_at": "2026-10-15",
+      "review": "Conferido na reportagem; documento subjacente não auditado",
+      "from": "zettel"
+    },
+    {
+      "id": "zettel-jair",
+      "to": "jair",
+      "label": "Doação eleitoral",
+      "detail": "Doou R$ 3 milhões à campanha de 2022.",
+      "status": "Noticiado",
+      "date": "2022-10-10",
+      "sources": [
+        {
+          "title": "Agência Pública · 14/01/2026",
+          "url": "https://apublica.org/nota/quem-e-fabiano-zettel-maior-doador-de-tarcisio-de-freitas/"
+        }
+      ],
+      "reviewed_at": "2026-10-15",
+      "review": "Conferido na reportagem; documento subjacente não auditado",
+      "from": "zettel"
+    },
+    {
+      "id": "flavio-vorcaro",
+      "to": "vorcaro",
+      "label": "Negociação de financiamento",
+      "detail": "Intercept publicou mensagens e áudio sobre recursos para o filme Dark Horse.",
+      "status": "Noticiado",
+      "date": "2025",
+      "sources": [
+        {
+          "title": "Intercept Brasil · 13/05/2026",
+          "url": "https://www.intercept.com.br/2026/05/13/audio-flavio-negociou-vorcaro-milhoes/"
+        }
+      ],
+      "reviewed_at": "2026-10-15",
+      "review": "Conferido na reportagem; documento subjacente não auditado",
+      "from": "flavio",
+      "response": "Na publicação de 13/05/2026, Flávio negou a informação; Vorcaro não respondeu."
+    },
+    {
+      "id": "vorcaro-darkhorse",
+      "to": "darkhorse",
+      "label": "Financiamento noticiado",
+      "detail": "Registros publicados apontam pagamentos para a produção do filme.",
+      "status": "Noticiado",
+      "date": "2025",
+      "sources": [
+        {
+          "title": "Intercept Brasil · 13/05/2026",
+          "url": "https://www.intercept.com.br/2026/05/13/audio-flavio-negociou-vorcaro-milhoes/"
+        }
+      ],
+      "reviewed_at": "2026-10-15",
+      "review": "Conferido na reportagem; documento subjacente não auditado",
+      "from": "vorcaro"
+    },
+    {
+      "id": "frias-darkhorse",
+      "to": "darkhorse",
+      "label": "Idealizador e interlocutor",
+      "detail": "A reportagem situa Frias na interlocução do projeto.",
+      "status": "Noticiado",
+      "date": "2025",
+      "sources": [
+        {
+          "title": "Intercept Brasil · 13/05/2026",
+          "url": "https://www.intercept.com.br/2026/05/13/audio-flavio-negociou-vorcaro-milhoes/"
+        }
+      ],
+      "reviewed_at": "2026-10-15",
+      "review": "Conferido na reportagem; documento subjacente não auditado",
+      "from": "frias",
+      "response": "Frias confirmou contatos e negou articulação financeira em nome de Vorcaro ou favorecimento pelo mandato."
+    },
+    {
+      "id": "meirelles-master",
+      "to": "master",
+      "label": "Consultoria macroeconômica",
+      "detail": "Meirelles confirmou contrato de consultoria com o banco.",
+      "status": "Noticiado",
+      "date": "2024-03 a 2025-07",
+      "sources": [
+        {
+          "title": "Metrópoles · 08/04/2026",
+          "url": "https://www.metropoles.com/brasil/master-declarou-pagamentos-a-temer-rueda-acm-neto-e-lewandowski"
+        }
+      ],
+      "reviewed_at": "2026-10-15",
+      "review": "Conferido na reportagem; documento subjacente não auditado",
+      "from": "meirelles",
+      "response": "Afirmou que a consultoria tinha caráter opinativo."
+    },
+    {
+      "id": "mantega-pollaris",
+      "to": "pollaris",
+      "label": "Empresa de consultoria",
+      "detail": "A reportagem identifica Pollaris como empresa de Mantega.",
+      "status": "Noticiado",
+      "date": "2024–2025",
+      "sources": [
+        {
+          "title": "Poder360 · 08/04/2026",
+          "url": "https://www.poder360.com.br/poder-economia/receita-mostra-pagamentos-do-banco-master-a-politicos-e-ex-ministros/"
+        }
+      ],
+      "reviewed_at": "2026-10-15",
+      "review": "Conferido na reportagem; documento subjacente não auditado",
+      "from": "mantega"
+    },
+    {
+      "id": "master-pollaris",
+      "to": "pollaris",
+      "label": "Pagamento por serviços",
+      "detail": "Pagamentos de R$ 14 milhões foram noticiados.",
+      "status": "Noticiado",
+      "date": "2024–2025",
+      "sources": [
+        {
+          "title": "Poder360 · 08/04/2026",
+          "url": "https://www.poder360.com.br/poder-economia/receita-mostra-pagamentos-do-banco-master-a-politicos-e-ex-ministros/"
+        },
+        {
+          "title": "Metrópoles · 08/04/2026",
+          "url": "https://www.metropoles.com/brasil/master-declarou-pagamentos-a-temer-rueda-acm-neto-e-lewandowski"
+        }
+      ],
+      "reviewed_at": "2026-10-15",
+      "review": "Conferido na reportagem; documento subjacente não auditado",
+      "from": "master",
+      "response": "Ao Metrópoles, Mantega afirmou que prestou consultoria formal e desconhecia irregularidades na contratação."
+    },
+    {
+      "id": "temer-escritorio-temer",
+      "to": "escritorio-temer",
+      "label": "Atuação profissional",
+      "detail": "Temer confirmou atuação por seu escritório.",
+      "status": "Noticiado",
+      "date": "2025",
+      "sources": [
+        {
+          "title": "Metrópoles · 08/04/2026",
+          "url": "https://www.metropoles.com/brasil/master-declarou-pagamentos-a-temer-rueda-acm-neto-e-lewandowski"
+        }
+      ],
+      "reviewed_at": "2026-10-15",
+      "review": "Conferido na reportagem; documento subjacente não auditado",
+      "from": "temer"
+    },
+    {
+      "id": "master-escritorio-temer",
+      "to": "escritorio-temer",
+      "label": "Serviços jurídicos de mediação",
+      "detail": "A contratação foi confirmada por Temer.",
+      "status": "Noticiado",
+      "date": "2025",
+      "sources": [
+        {
+          "title": "Metrópoles · 08/04/2026",
+          "url": "https://www.metropoles.com/brasil/master-declarou-pagamentos-a-temer-rueda-acm-neto-e-lewandowski"
+        }
+      ],
+      "reviewed_at": "2026-10-15",
+      "review": "Conferido na reportagem; documento subjacente não auditado",
+      "from": "master",
+      "response": "Temer afirmou ter prestado mediação e contestou o valor declarado pelo banco."
+    },
+    {
+      "id": "rueda-escritorios-rueda",
+      "to": "escritorios-rueda",
+      "label": "Vínculo profissional",
+      "detail": "A reportagem identifica escritórios ligados a Rueda.",
+      "status": "Noticiado",
+      "date": "2023",
+      "sources": [
+        {
+          "title": "Metrópoles · 08/04/2026",
+          "url": "https://www.metropoles.com/brasil/master-declarou-pagamentos-a-temer-rueda-acm-neto-e-lewandowski"
+        }
+      ],
+      "reviewed_at": "2026-10-15",
+      "review": "Conferido na reportagem; documento subjacente não auditado",
+      "from": "rueda"
+    },
+    {
+      "id": "master-escritorios-rueda",
+      "to": "escritorios-rueda",
+      "label": "Serviços jurídicos",
+      "detail": "A reportagem aponta pagamentos aos escritórios.",
+      "status": "Noticiado",
+      "date": "2023",
+      "sources": [
+        {
+          "title": "Metrópoles · 08/04/2026",
+          "url": "https://www.metropoles.com/brasil/master-declarou-pagamentos-a-temer-rueda-acm-neto-e-lewandowski"
+        }
+      ],
+      "reviewed_at": "2026-10-15",
+      "review": "Conferido na reportagem; documento subjacente não auditado",
+      "from": "master",
+      "response": "Rueda afirmou que os serviços eram técnicos e legítimos, sem interferência de sua atuação pública."
+    },
+    {
+      "id": "acm-am",
+      "to": "am",
+      "label": "Sociedade",
+      "detail": "A&M é identificada como empresa de ACM Neto.",
+      "status": "Noticiado",
+      "date": "2023–2025",
+      "sources": [
+        {
+          "title": "Poder360 · 08/04/2026",
+          "url": "https://www.poder360.com.br/poder-economia/receita-mostra-pagamentos-do-banco-master-a-politicos-e-ex-ministros/"
+        }
+      ],
+      "reviewed_at": "2026-10-15",
+      "review": "Conferido na reportagem; documento subjacente não auditado",
+      "from": "acm"
+    },
+    {
+      "id": "master-am",
+      "to": "am",
+      "label": "Pagamento por consultoria",
+      "detail": "A reportagem aponta R$ 5,45 milhões em pagamentos.",
+      "status": "Noticiado",
+      "date": "2023–2025",
+      "sources": [
+        {
+          "title": "Poder360 · 08/04/2026",
+          "url": "https://www.poder360.com.br/poder-economia/receita-mostra-pagamentos-do-banco-master-a-politicos-e-ex-ministros/"
+        },
+        {
+          "title": "Metrópoles · 08/04/2026",
+          "url": "https://www.metropoles.com/brasil/master-declarou-pagamentos-a-temer-rueda-acm-neto-e-lewandowski"
+        }
+      ],
+      "reviewed_at": "2026-10-15",
+      "review": "Conferido na reportagem; documento subjacente não auditado",
+      "from": "master",
+      "response": "Ao Metrópoles, a empresa afirmou que prestou serviços lícitos e não validou os valores divulgados."
+    },
+    {
+      "id": "lewandowski-lewandowski-adv",
+      "to": "lewandowski-adv",
+      "label": "Vínculo profissional histórico",
+      "detail": "Atuou no escritório antes de assumir o Ministério da Justiça.",
+      "status": "Noticiado",
+      "date": "Até janeiro de 2024",
+      "sources": [
+        {
+          "title": "Poder360 · 08/04/2026",
+          "url": "https://www.poder360.com.br/poder-economia/receita-mostra-pagamentos-do-banco-master-a-politicos-e-ex-ministros/"
+        }
+      ],
+      "reviewed_at": "2026-10-15",
+      "review": "Conferido na reportagem; documento subjacente não auditado",
+      "from": "lewandowski",
+      "response": "A assessoria informa retirada do escritório em janeiro de 2024, com controle posterior pela família."
+    },
+    {
+      "id": "master-lewandowski-adv",
+      "to": "lewandowski-adv",
+      "label": "Consultoria jurídica",
+      "detail": "O escritório recebeu pagamentos iniciados em novembro de 2023.",
+      "status": "Noticiado",
+      "date": "2023–2025",
+      "sources": [
+        {
+          "title": "Poder360 · 08/04/2026",
+          "url": "https://www.poder360.com.br/poder-economia/receita-mostra-pagamentos-do-banco-master-a-politicos-e-ex-ministros/"
+        }
+      ],
+      "reviewed_at": "2026-10-15",
+      "review": "Conferido na reportagem; documento subjacente não auditado",
+      "from": "master"
+    },
+    {
+      "id": "wajngarten-wf",
+      "to": "wf",
+      "label": "Empresa",
+      "detail": "WF é identificada como empresa de Wajngarten.",
+      "status": "Noticiado",
+      "date": "2025",
+      "sources": [
+        {
+          "title": "Poder360 · 08/04/2026",
+          "url": "https://www.poder360.com.br/poder-economia/receita-mostra-pagamentos-do-banco-master-a-politicos-e-ex-ministros/"
+        }
+      ],
+      "reviewed_at": "2026-10-15",
+      "review": "Conferido na reportagem; documento subjacente não auditado",
+      "from": "wajngarten"
+    },
+    {
+      "id": "master-wf",
+      "to": "wf",
+      "label": "Serviços ligados à defesa",
+      "detail": "A reportagem aponta pagamentos à WF.",
+      "status": "Noticiado",
+      "date": "2025",
+      "sources": [
+        {
+          "title": "Poder360 · 08/04/2026",
+          "url": "https://www.poder360.com.br/poder-economia/receita-mostra-pagamentos-do-banco-master-a-politicos-e-ex-ministros/"
+        }
+      ],
+      "reviewed_at": "2026-10-15",
+      "review": "Conferido na reportagem; documento subjacente não auditado",
+      "from": "master",
+      "response": "Wajngarten confirmou integração à equipe de defesa de Vorcaro."
+    },
+    {
+      "id": "master-estadao",
+      "to": "estadao",
+      "label": "Publicidade e patrocínio",
+      "detail": "O jornal confirmou publicidade e patrocínio da cobertura do GP Brasil.",
+      "status": "Noticiado",
+      "date": "2021–2025",
+      "sources": [
+        {
+          "title": "Metrópoles · publicidade do Estadão",
+          "url": "https://www.metropoles.com/brasil/jorna-dos-banqueiros-estadao-recebeu-r-112-milhao-do-master"
+        }
+      ],
+      "reviewed_at": "2026-10-15",
+      "review": "Conferido na reportagem; documento subjacente não auditado",
+      "from": "master",
+      "response": "Estadão descreveu os pagamentos como publicidade institucional, mídia digital e informe publicitário."
+    },
+    {
+      "id": "will-master",
+      "to": "master",
+      "label": "Vínculo empresarial",
+      "detail": "A CNN identifica Will Financeira como instituição com participação de Vorcaro e vinculada ao Master.",
+      "status": "Noticiado",
+      "date": "Histórico",
+      "sources": [
+        {
+          "title": "CNN Brasil · 21/01/2026",
+          "url": "https://www.cnnbrasil.com.br/economia/money/negocios/banco-central-decreta-liquidacao-da-will-financeira-de-vorcaro/"
+        }
+      ],
+      "reviewed_at": "2026-10-15",
+      "review": "Conferido na reportagem; documento subjacente não auditado",
+      "from": "will"
+    },
+    {
+      "id": "will-domingao",
+      "to": "domingao",
+      "label": "Patrocínio",
+      "detail": "Huck relacionou o contato com Vorcaro ao patrocínio do programa pelo Will Bank.",
+      "status": "Noticiado",
+      "date": "Declaração em 30/09/2026",
+      "sources": [
+        {
+          "title": "Poder360 · 30/09/2026",
+          "url": "https://www.poder360.com.br/poder-gente/huck-nega-sociedade-com-vorcaro-e-diz-que-relacao-era-por-patrocinio/"
+        }
+      ],
+      "reviewed_at": "2026-10-15",
+      "review": "Conferido na reportagem; documento subjacente não auditado",
+      "from": "will"
+    },
+    {
+      "id": "huck-domingao",
+      "to": "domingao",
+      "label": "Apresentador",
+      "detail": "Programa apresentado por Luciano Huck.",
+      "status": "Noticiado",
+      "date": "2026",
+      "sources": [
+        {
+          "title": "Poder360 · 30/09/2026",
+          "url": "https://www.poder360.com.br/poder-gente/huck-nega-sociedade-com-vorcaro-e-diz-que-relacao-era-por-patrocinio/"
+        }
+      ],
+      "reviewed_at": "2026-10-15",
+      "review": "Conferido na reportagem; documento subjacente não auditado",
+      "from": "huck"
+    },
+    {
+      "id": "huck-vorcaro",
+      "to": "vorcaro",
+      "label": "Contato sobre patrocínio",
+      "detail": "Huck afirmou que interagia com Vorcaro para captar e gerir patrocínio do Will Bank.",
+      "status": "Noticiado",
+      "date": "Declaração em 30/09/2026",
+      "sources": [
+        {
+          "title": "Poder360 · 30/09/2026",
+          "url": "https://www.poder360.com.br/poder-gente/huck-nega-sociedade-com-vorcaro-e-diz-que-relacao-era-por-patrocinio/"
+        }
+      ],
+      "reviewed_at": "2026-10-15",
+      "review": "Conferido na reportagem; documento subjacente não auditado",
+      "from": "huck",
+      "response": "Huck negou sociedade com Vorcaro."
+    },
+    {
+      "id": "ciro-vorcaro",
+      "to": "vorcaro",
+      "label": "Despesas de viagens sob investigação",
+      "detail": "Segundo a CNN, relatório da PF aponta despesas de Ciro custeadas por Vorcaro.",
+      "sources": [
+        {
+          "url": "https://www.cnnbrasil.com.br/politica/relatorio-expoe-relacao-proxima-de-ciro-nogueira-com-vorcaro-veja-fotos/",
+          "title": "CNN Brasil · 16/06/2026"
+        }
+      ],
+      "date": "Período descrito no relatório de 2026",
+      "status": "Alegação da PF noticiada",
+      "reviewed_at": "2026-10-15",
+      "review": "Conferido na cobertura; documento original não auditado",
+      "from": "ciro",
+      "response": "A reportagem consultada não traz resposta do senador; contraditório a complementar."
+    },
+    {
+      "id": "master-metropoles",
+      "to": "metropoles",
+      "label": "Publicidade e patrocínio esportivo",
+      "detail": "O veículo confirmou contratos com Master/Will Bank. A reportagem informa repasses do Master em 2024 e 2025.",
+      "sources": [
+        {
+          "title": "Estadão via UOL · 01/09/2026",
+          "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/09/01/master-pagou-metropoles-e-escritorio-barci-de-moraes-no-mesmo-dia-mostram-mensagens-de-vorcaro.htm"
+        }
+      ],
+      "date": "2024–2025",
+      "status": "Noticiado",
+      "reviewed_at": "2026-10-15",
+      "review": "Conferido na cobertura; documento original não auditado",
+      "from": "master",
+      "response": "O Metrópoles atribuiu os pagamentos a contratos públicos de publicidade e patrocínio de transmissões esportivas."
+    },
+    {
+      "id": "samor-braziljournal",
+      "to": "braziljournal",
+      "label": "Fundador",
+      "detail": "Samor é identificado como fundador do site.",
+      "sources": [
+        {
+          "url": "https://www1.folha.uol.com.br/poder/2026/10/brazil-journal-istoe-e-portais-de-esquerda-como-vorcaro-montou-rede-de-influencia-em-sites-de-noticias.shtml",
+          "title": "Folha · 15/10/2026"
+        }
+      ],
+      "date": "Histórico",
+      "status": "Noticiado",
+      "reviewed_at": "2026-10-15",
+      "review": "Conferido na cobertura; documento original não auditado",
+      "from": "samor"
+    },
+    {
+      "id": "samor-vorcaro",
+      "to": "vorcaro",
+      "label": "Consultas sobre reportagens",
+      "detail": "A Folha relata consultas a Vorcaro sobre reportagens do Master antes da publicação.",
+      "sources": [
+        {
+          "url": "https://www1.folha.uol.com.br/poder/2026/10/brazil-journal-istoe-e-portais-de-esquerda-como-vorcaro-montou-rede-de-influencia-em-sites-de-noticias.shtml",
+          "title": "Folha · 15/10/2026"
+        }
+      ],
+      "date": "Mensagens anteriores à reportagem",
+      "status": "Relato jornalístico; contraditório pendente",
+      "reviewed_at": "2026-10-15",
+      "review": "Conferido na cobertura; documento original não auditado",
+      "from": "samor"
+    },
+    {
+      "id": "will-serie-d-metropoles",
+      "to": "serie-d-metropoles",
+      "label": "Patrocínio das transmissões",
+      "detail": "A reportagem identifica contrato do Will Bank para as transmissões da Série D de 2025.",
+      "date": "2025",
+      "status": "Noticiado; contrato reconhecido pelo veículo",
+      "sources": [
+        {
+          "title": "Estadão via Terra · 15/10/2026",
+          "url": "https://www.terra.com.br/noticias/brasil/politica/dialogos-mostram-como-ceo-do-metropoles-negociou-patrocinio-de-vorcaro-a-transmissao-da-serie-d,216a6b2edd2ef5417726de1ed848322b1bn25pbj.html"
+        }
+      ],
+      "reviewed_at": "2026-10-15",
+      "review": "Conferido na reportagem; contrato original não auditado",
+      "from": "will"
+    },
+    {
+      "id": "metropoles-serie-d-metropoles",
+      "to": "serie-d-metropoles",
+      "label": "Transmissão esportiva",
+      "detail": "O Metrópoles adquiriu direitos comerciais e de transmissão da competição.",
+      "date": "2025",
+      "status": "Noticiado; contrato reconhecido pelo veículo",
+      "sources": [
+        {
+          "title": "Estadão via Terra · 15/10/2026",
+          "url": "https://www.terra.com.br/noticias/brasil/politica/dialogos-mostram-como-ceo-do-metropoles-negociou-patrocinio-de-vorcaro-a-transmissao-da-serie-d,216a6b2edd2ef5417726de1ed848322b1bn25pbj.html"
+        }
+      ],
+      "reviewed_at": "2026-10-15",
+      "review": "Conferido na reportagem; contrato original não auditado",
+      "from": "metropoles"
+    }
+  ],
+  "provenance": {
+    "discovery": "https://pptdovorcaro.com/",
+    "discovery_retrieved_at": "2026-10-15",
+    "discovery_inventory": {
+      "entities": 43,
+      "relations": 42
+    },
+    "method": "PPT usado para descoberta. Base inicial reescrita e conferida em notícias; não reproduz pontuação de irmandade. Relações de notícia não equivalem a documentos primários auditados."
+  }
+}

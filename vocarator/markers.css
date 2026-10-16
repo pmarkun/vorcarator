@@ -1,0 +1,28 @@
+/* Keep the page's typography; only the annotation gets its own colors. */
+.vocarator-mark {
+  --vcr-ink:#28320f; --vcr-surface:#e9efc8; --vcr-accent:#687b25;
+  background:transparent !important; color:inherit !important;
+  -webkit-text-fill-color:currentColor !important;
+  text-decoration-line:underline !important; text-decoration-style:dotted !important;
+  text-decoration-color:var(--vcr-accent) !important;
+  text-decoration-thickness:1.5px !important; text-underline-offset:.2em !important;
+  cursor:pointer !important; border-radius:3px !important;
+  box-decoration-break:clone !important; -webkit-box-decoration-break:clone !important;
+}
+.vocarator-mark[data-vocarator-theme="dark"] {--vcr-ink:#f1f7d9;--vcr-surface:#344322;--vcr-accent:#bed984;}
+.vocarator-mark[data-vocarator-style="highlight"],.vocarator-mark:hover,.vocarator-mark:focus-visible {
+  background:var(--vcr-surface) !important; color:var(--vcr-ink) !important;
+  -webkit-text-fill-color:var(--vcr-ink) !important;
+  text-decoration-style:solid !important;
+}
+.vocarator-mark:focus-visible {outline:2px solid var(--vcr-accent) !important;outline-offset:3px !important;}
+.vocarator-tag {
+  all:initial !important; font:700 9px/1 system-ui,sans-serif !important;
+  display:inline-block !important; background:var(--vcr-surface) !important;
+  color:var(--vcr-ink) !important; -webkit-text-fill-color:var(--vcr-ink) !important;
+  border:1px solid var(--vcr-accent) !important; border-radius:3px !important;
+  padding:2px 3px !important; margin-left:3px !important; vertical-align:super !important;
+  cursor:pointer !important; white-space:nowrap !important;
+}
+.vocarator-tag[hidden] {display:none !important;}
+@media(forced-colors:active){.vocarator-mark{color:CanvasText !important;text-decoration-color:LinkText !important}.vocarator-mark:hover,.vocarator-mark:focus-visible,.vocarator-mark[data-vocarator-style="highlight"]{color:HighlightText !important;background:Highlight !important}.vocarator-tag{color:ButtonText !important;background:ButtonFace !important;border-color:ButtonText !important}}

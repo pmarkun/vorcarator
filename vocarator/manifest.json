@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Vocarator",
+  "version": "0.3.0",
+  "description": "Relações públicas com Daniel Vorcaro, com contexto, datas e fontes.",
+  "permissions": [
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Vocarator"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "data.js",
+        "core.js",
+        "theme.js",
+        "view.js",
+        "content.js"
+      ],
+      "css": [
+        "markers.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "options_page": "sobre.html",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "https://raw.githubusercontent.com/pmarkun/vorcarator/*"
+  ]
+}

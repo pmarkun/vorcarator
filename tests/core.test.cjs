@@ -1,0 +1,7 @@
+const test=require('node:test');const assert=require('node:assert/strict');
+require('../vocarator/data.js');require('../vocarator/core.js');const d=VORCARO_DATA,c=VocaratorCore;
+test('every entity has a sourced path to root',()=>{c.validate(d);for(const n of d.nodes){const p=c.path(d,n.id);assert(p,n.id);assert.equal(p.nodes.at(-1),d.root);assert.equal(p.edges.length,p.nodes.length-1);}});
+test('longest alias, unicode boundaries, literal regex punctuation',()=>{assert.deepEqual(c.matcher(d)('VogueX Baile da Vogue, VOGUE; A&M Consultoria Ltda e Daniel Vorcarox.').map(x=>x.id),['baile','vogue','am']);const x={nodes:[{id:'literal',aliases:['A+B (Brasil)']}]};assert.equal(c.matcher(x)('A+B (Brasil)')[0].id,'literal');});
+test('domain matching rejects suffix spoofing and unrelated Globo domains',()=>{assert.equal(c.domain(d,'vogue.globo.com').id,'vogue');assert.equal(c.domain(d,'estadao.com.br.attacker.com'),undefined);assert.equal(c.domain(d,'noticias.globo.com'),undefined);assert.equal(c.domain(d,'www.estadao.com.br').id,'estadao');});
+test('import rejects unknown endpoints, duplicate ids and unsafe sources',()=>{for(const mutate of [x=>x.edges[0].from='missing',x=>x.nodes.push(x.nodes[0]),x=>x.edges[0].sources[0].url='javascript:alert(1)',x=>x.edges[0].sources=[]]){const x=structuredClone(d);mutate(x);assert.throws(()=>c.validate(x));}});
+test('distributed JSON and bundled data agree',()=>assert.deepEqual(d,require('../vocarator/base-inicial.json')));

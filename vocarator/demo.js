@@ -1,0 +1,1 @@
+document.getElementById("add").onclick=()=>{const p=document.createElement("p");p.textContent="Texto inserido depois do carregamento: Banco Master e Daniel Vorcaro.";document.getElementById("dynamic").append(p);};
